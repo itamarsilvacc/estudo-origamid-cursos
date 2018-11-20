@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <h1>Formulário</h1>
+
+    <p>Formulários são muito usados na internet, e possibilitam a iteração do usuário com o conteúdo ou sistema onde estão sendo aplicados. Essa iteração, que acontece enviando e recebendo dados de um servidor web, é feita através de uma linguagem de programação, como o PHP.</p>
+
+    <p>Abaixo, a codificação de um simples formulário exemplificando o uso de algumas tags relacionadas à formulário HTML.</p>
+
+    <form action="" method="post" name="form">
+      <div>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome..." required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email..." required>
+      </div>
+
+      <div>
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" placeholder="Digite sua mensagem..."></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
